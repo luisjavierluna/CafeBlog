@@ -3,7 +3,7 @@
 :root {
     --headingFont: 'PT Sans', sans-serif;
     --paragraphFont: 'Open Sans', sans-serif;
-
+    --gray: #e1e1e1;
     --primary: #784d3c;
     --white: #ffffff;
     --black: #000000;
@@ -131,5 +131,36 @@ img {
         grid-template-columns: 2fr 1fr;
         column-gap: 4rem;
     }
-    
+}
+
+.entry  {
+    border: 1px solid var(--gray);
+    margin-bottom: 2rem;
+}
+
+.entry:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.button {
+    display: block;
+    font-family: var(--headingFont);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .button {
+        display: inline-block;
+    }
+}
+
+.button--primary {
+    background-color: var(--black);
 }
