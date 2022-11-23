@@ -248,3 +248,12 @@ img {
 .course__info {
     font-size: 2rem;
 }
+
+
+/* Contact */
+.contact-bg {
+    background-image: url(assets/img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
