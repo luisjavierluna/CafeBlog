@@ -27,23 +27,35 @@
         
     <form class="form">
         <div class="field">
-            <label for="name">Name</label>
-            <input type="text" placeholder="Your Name" id="name">
+            <label class="field__label" for="name">Name</label>
+            <input 
+                class="field__field"
+                type="text" 
+                placeholder="Your Name" 
+                id="name"
+            >
         </div>
         <div class="field">
-            <label for="email">Email</label>
-            <input type="email" placeholder="Your Email" id="email">
+            <label class="field__label" for="email">Email</label>
+            <input 
+                class="field__field"
+                type="email" 
+                placeholder="Your Email" 
+                id="email"
+            >
         </div>
         <div class="field">
-            <label for="message">Message</label>
-            <textarea id="message" cols="30" rows="10"></textarea>
+            <label class="field__label" for="message">Message</label>
+            <textarea 
+                class="field__field field__field--textarea"
+                id="message"
+            ></textarea>
         </div>
 
         <div class="field">
             <input type="submit" value="Send" class="button button--primary">
         </div>
     </form>
-
     
   </main>
   
